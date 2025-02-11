@@ -26,6 +26,8 @@ WIP.
 13. Run the development server with this command: `python3 main.py`
 ### In the Instance that is in the Public Subnet:
 14. Test the API with this command: `curl -v http://PRIVATE-IP-FROM-PRIVATE-INSTANCE/api/hello`
+### Establish NAT Gateway
+15. Create a NAT Gateway in AWS so your private subnet can get Internet access.
 
 ## Result
 ![result](https://github.com/user-attachments/assets/8000af35-356d-49ea-8338-f8bdca2350bc)
