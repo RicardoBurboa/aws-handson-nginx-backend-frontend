@@ -2,7 +2,7 @@
 Sets up a backend in a private subnet that communicates to the frontend in a public subnet while leveraging Security Groups and Nginx.
 
 ## Description
-This project creates a backend server in an instance that is located in a private subnet. This backend establishes communication with the frontend that is located in an instance on a private subnet, while leveraging Nginx. The purpose is to test if a request can be done with an API and also if the frontend can access the data through the Internet with a NAT Gateway.
+This project creates a backend server in an instance that is located in a private subnet. This backend establishes communication with the frontend that is located in an instance on a private subnet, while leveraging Nginx. The purpose of this project is to test if a request can be done with an API and also if the frontend can access the data through the Internet with a NAT Gateway.
 
 ## Diagram
 WIP.
