@@ -9,7 +9,7 @@ This project creates a backend server in an instance that is located in a privat
 
 ## Steps
 ### In Both Public and Private Instances:
-1. Create 2 EC2 instances, where one is in a public subnet and the other is in a private subnet.
+1. Create 2 EC2 instances, where one is in a public subnet and the other is in a private subnet. Remember to get both .pem files in order to connect with SSH.
 2. Perform `sudo apt-get update` and `sudo apt-get upgrade`.
 3. Install Nginx.
 ### In the Instance that is in the Public Subnet:
