@@ -2,7 +2,7 @@
 Sets up a backend in a private subnet that communicates to the frontend in a public subnet while leveraging Security Groups and Nginx.
 
 ## Description
-This project creates a backend server in an instance that is located in a private subnet. This backend establishes communication with the frontend that is located in an instance on a private subnet, while leveraging Nginx. The purpose of this project is to test if a request can be done with an API and also if the frontend can access the data through the Internet with a NAT Gateway.
+This project creates a backend server in an instance that is located in a private subnet. An RDS Database that uses MySQL is also in this private subnet. The backend establishes communication with the frontend that is located in an instance on a private subnet, while leveraging Nginx. The purpose of this project is to test if a request can be done with an API and also if the frontend can have the data be served through the Internet with a NAT Gateway, Route Table and Internet Gateway.
 
 ## Diagram
 ![NginxBackendFrontend](https://github.com/user-attachments/assets/7c79deb6-48ef-4d13-b271-a532b532f60c)
@@ -27,8 +27,11 @@ This project creates a backend server in an instance that is located in a privat
 ### Establish Network Configurations
 14. Create a NAT Gateway in AWS so your private subnet can get Internet access.
 15. Create a Route Table for your NAT Gateway.
+### RDS Instance
+16. Create an RDS instance that uses MySQL in the private subnet. 
 ### In the Instance that is in the Public Subnet:
-16. Test the API with this command: `curl -v http://PRIVATE-IP-FROM-PRIVATE-INSTANCE/api/hello`
+17. Connect the API with the RDS database.
+18. Test the API with this command: `curl -v http://PRIVATE-IP-FROM-PRIVATE-INSTANCE/api/hello`
 
 ## Result
 ![result](https://github.com/user-attachments/assets/8000af35-356d-49ea-8338-f8bdca2350bc)
