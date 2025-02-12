@@ -34,7 +34,11 @@ This project creates a backend server in an instance that is located in a privat
 18. Test the API with this command: `curl -v http://PRIVATE-IP-FROM-PRIVATE-INSTANCE/api/hello`
 
 ## Result
+### "Hello World" Test
 ![result](https://github.com/user-attachments/assets/8000af35-356d-49ea-8338-f8bdca2350bc)
+
+### Query Result
+![WhatsApp Image 2025-02-11 at 4 33 50 PM (1)](https://github.com/user-attachments/assets/619ccf5b-8226-4b02-8c7c-296c3677641d)
 
 ## AWS Certifications
 
