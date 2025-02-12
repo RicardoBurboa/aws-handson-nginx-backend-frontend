@@ -5,7 +5,7 @@ Sets up a backend in a private subnet that communicates to the frontend in a pub
 This project creates a backend server in an instance that is located in a private subnet. An RDS Database that uses MySQL is also in this private subnet. The backend establishes communication with the frontend that is located in an instance on a private subnet, while leveraging Nginx. The purpose of this project is to test if a request can be done with an API and also if the frontend can have the data be served through the Internet with a NAT Gateway, Route Table and Internet Gateway.
 
 ## Diagram
-![NginxBackendFrontend](https://github.com/user-attachments/assets/7c79deb6-48ef-4d13-b271-a532b532f60c)
+![NginxBackendFrontend](https://github.com/user-attachments/assets/83ece077-9e18-43df-ae3c-ed242a8404b8)
 
 ## Steps
 ### In Both Public and Private Instances:
